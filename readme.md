@@ -54,6 +54,7 @@ python manage.py runserver
 ```
 
 ## If you want to use the app on docker, you should have installed docker in your system, to create build for docker:
+Change the `DBHOST=db` in the .env file.
 ```bash
 docker-compose build
 ```
